@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "../App.css";
 // import Navigation from "./Shared/Navigation";
-import CgkFooter from "./Shared/CgkFooter";
+import { Link } from "react-router-dom";
 
 class Home extends React.Component {
   render() {
@@ -15,9 +15,9 @@ class Home extends React.Component {
           <p className="cgk-home-head-title">
             Software development team in vietnam
           </p>
-          <a href="/contact" className="btn btn-cgk rounded-0 pl-3 pr-3 mt-3">
+          <Link to="/contact" className="btn btn-cgk rounded-0 pl-3 pr-3 mt-3">
             Contact us
-          </a>
+          </Link>
         </div>
       </div>
     );

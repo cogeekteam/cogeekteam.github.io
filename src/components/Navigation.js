@@ -25,7 +25,7 @@ class Navigation extends React.Component {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route exact path="/service">
+            <Route path="/service">
               <Home />
             </Route>
             <Route path="/contact">
@@ -34,10 +34,10 @@ class Navigation extends React.Component {
             <Route path="/about-us">
               <Contact />
             </Route>
-            <Route exact path="/privacy-policy">
+            <Route path="/privacy-policy">
               <Policy />
             </Route>
-            <Route exact path="/term-condition">
+            <Route path="/term-condition">
               <Home />
             </Route>
           </Switch>

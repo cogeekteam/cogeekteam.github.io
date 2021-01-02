@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../logo.svg";
+import { Link } from "react-router-dom";
 
 function CogeekFooter(props) {
   return (
@@ -7,9 +8,9 @@ function CogeekFooter(props) {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-6">
-            <a href="/">
+            <Link to="/">
               <img src={logo} height="70px" alt="" />
-            </a>
+            </Link>
             <p className="cgk-copyright mt-3">
               Copyright &copy; 2021 Cogeek. All rights reserved.
             </p>
@@ -18,18 +19,18 @@ function CogeekFooter(props) {
             <div className="row">
               <div className="col-md-4">
                 <div>
-                  <a href="/contact">Contact us</a>
+                  <Link to="/contact">Contact us</Link>
                 </div>
                 <div>
-                  <a href="/about-us">About us</a>
+                  <Link to="/about-us">About us</Link>
                 </div>
               </div>
               <div className="col-md-4">
                 <div>
-                  <a href="/term-condition">Terms & Conditions</a>
+                  <Link to="/term-condition">Terms & Conditions</Link>
                 </div>
                 <div>
-                  <a href="/privacy-policy">Privacy Policy</a>
+                  <Link to="/privacy-policy">Privacy Policy</Link>
                 </div>
               </div>
               <div className="col-md-4 follow-cgk">

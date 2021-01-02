@@ -1,10 +1,8 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("assets/css/Custom.css");
+body {
+  font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Roboto, Arial,
+    sans-serif !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,19 +11,96 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-cogeek {
+  background-color: #20232a;
 }
 
-.App-link {
-  color: #61dafb;
+.cgk-home-header {
+  background-image: linear-gradient(
+      102.25deg,
+      rgba(32, 35, 42, 0.9) 0%,
+      rgba(32, 35, 42, 0.4) 100%
+    ),
+    url("./assets/img/cogeek-home-header-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 200px;
+}
+
+.cgk-home-head-name {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.cgk-home-head-title {
+  color: #fff;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+
+.btn-cgk {
+  color: #fff !important;
+  background-color: #06c4f9 !important;
+  border-color: #06c4f9 !important;
+}
+
+.btn-cgk:hover {
+  color: #06b1e0 !important;
+  background-color: #fff !important;
+  border-color: #fff !important;
+}
+
+.btn-cgk:focus,
+.btn-cgk.focus {
+  box-shadow: 0 0 0 0.2rem rgba(6, 196, 249, 0.5) !important;
+}
+
+.btn-cgk.disabled,
+.btn-cgk:disabled {
+  color: #fff !important;
+  background-color: #06c4f9 !important;
+  border-color: #06c4f9 !important;
+}
+
+.btn-cgk:not(:disabled):not(.disabled):active,
+.btn-cgk:not(:disabled):not(.disabled).active,
+.show > .btn-cgk.dropdown-toggle {
+  color: #fff !important;
+  background-color: #117a8b !important;
+  border-color: #10707f !important;
+}
+
+.btn-cgk:not(:disabled):not(.disabled):active:focus,
+.btn-cgk:not(:disabled):not(.disabled).active:focus,
+.show > .btn-cgk.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(6, 196, 249, 0.5) !important;
+}
+
+.cgk-footer .cgk-copyright {
+  color: #fff;
+  margin: 0;
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+.cgk-footer a {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.cgk-footer a:hover {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.cgk-footer .follow-cgk a {
+  color: #fff;
+  font-size: 1.6rem;
+  margin-right: 0.5rem;
 }
 
 @keyframes App-logo-spin {

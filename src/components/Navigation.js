@@ -41,9 +41,8 @@ class Navigation extends React.Component {
               <Home />
             </Route>
           </Switch>
+          <CgkFooter />
         </Router>
-
-        <CgkFooter />
       </div>
     );
   }

@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.bada9efe.chunk.css",
-    "main.js": "/static/js/main.dcf913e8.chunk.js",
-    "main.js.map": "/static/js/main.dcf913e8.chunk.js.map",
+    "main.css": "/static/css/main.abe15a44.chunk.css",
+    "main.js": "/static/js/main.6d0fe8ca.chunk.js",
+    "main.js.map": "/static/js/main.6d0fe8ca.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b5d38407.js",
     "runtime-main.js.map": "/static/js/runtime-main.b5d38407.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.10abedc0.chunk.js": "/static/js/2.10abedc0.chunk.js",
-    "static/js/2.10abedc0.chunk.js.map": "/static/js/2.10abedc0.chunk.js.map",
+    "static/js/2.71a29c44.chunk.js": "/static/js/2.71a29c44.chunk.js",
+    "static/js/2.71a29c44.chunk.js.map": "/static/js/2.71a29c44.chunk.js.map",
     "static/js/3.0eba7fb3.chunk.js": "/static/js/3.0eba7fb3.chunk.js",
     "static/js/3.0eba7fb3.chunk.js.map": "/static/js/3.0eba7fb3.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.bada9efe.chunk.css.map": "/static/css/main.bada9efe.chunk.css.map",
-    "static/js/2.10abedc0.chunk.js.LICENSE.txt": "/static/js/2.10abedc0.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/cogeek-home-header-background.528e9693.jpg",
-    "static/media/logo.408b8329.svg": "/static/media/logo.408b8329.svg"
+    "static/css/main.abe15a44.chunk.css.map": "/static/css/main.abe15a44.chunk.css.map",
+    "static/js/2.71a29c44.chunk.js.LICENSE.txt": "/static/js/2.71a29c44.chunk.js.LICENSE.txt",
+    "static/media/arrow-object.7fb0a85b.svg": "/static/media/arrow-object.7fb0a85b.svg",
+    "static/media/App.css": "/static/media/who-is-cogeek.20abcd27.jpg",
+    "static/media/hoai-y-pham.7d9f7bad.png": "/static/media/hoai-y-pham.7d9f7bad.png",
+    "static/media/logo.408b8329.svg": "/static/media/logo.408b8329.svg",
+    "static/media/minh-vuong.3c204a47.png": "/static/media/minh-vuong.3c204a47.png",
+    "static/media/nam-hoang.0cf7a176.png": "/static/media/nam-hoang.0cf7a176.png",
+    "static/media/nghia-nguyen-huu.6053ba91.png": "/static/media/nghia-nguyen-huu.6053ba91.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b5d38407.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.10abedc0.chunk.js",
-    "static/css/main.bada9efe.chunk.css",
-    "static/js/main.dcf913e8.chunk.js"
+    "static/js/2.71a29c44.chunk.js",
+    "static/css/main.abe15a44.chunk.css",
+    "static/js/main.6d0fe8ca.chunk.js"
   ]
 }

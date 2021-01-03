@@ -5,11 +5,21 @@ import avtMinh from "../assets/img/minh-vuong.png";
 import avtHoaiY from "../assets/img/hoai-y-pham.png";
 import avtNam from "../assets/img/nam-hoang.png";
 import arrowObj from "../assets/img/arrow-object.svg";
+import bgAboutus from "../assets/img/who-is-cogeek.jpg";
 
 function About(props) {
   return (
     <article>
-      <header className="section cgk-about">
+      <header
+        className="section cgk-about"
+        style={{
+          backgroundImage:
+            "linear-gradient(171.69deg,rgba(39, 28, 0, 0.5) 15%,rgba(255, 186, 8, 0) 87.25%)," +
+            "url(" +
+            bgAboutus +
+            ")",
+        }}
+      >
         <h1 className="text-center font-weight-light text-capitalize text-white">
           cogeek team
         </h1>
@@ -22,19 +32,18 @@ function About(props) {
         </p>
         <img className="arrow-object" src={arrowObj}></img>
       </header>
-      <section className="section">
-        <div className="container" style={{ paddingTop: 150 }}>
-          <div className="row mt-4">
+      <section className="section mt-5">
+        <div className="container">
+          <div className="row">
             {/* <div className="col-md-6 mb-3">
             <img width="100%" src={imgAbout}></img>
           </div> */}
-            <div className="col-md-6 mb-3 pl-md-5 pr-md-5">
+            <div className="col-12 text-center">
               <h4>Who we are</h4>
               <p>
                 We are a dynamic team with a big dream of creating the best
                 productivity softwares for everyone.
               </p>
-              <h4>What we do</h4>
               <p>
                 We make people come close to technology easily, improve their
                 work performance.

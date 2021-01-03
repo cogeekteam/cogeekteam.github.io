@@ -25,12 +25,6 @@ body {
 }
 
 .cgk-home-header {
-  background-image: linear-gradient(
-      102.25deg,
-      rgba(32, 35, 42, 0.9) 0%,
-      rgba(32, 35, 42, 0.4) 100%
-    ),
-    url("./assets/img/cogeek-home-header-background.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -50,12 +44,6 @@ body {
   text-transform: capitalize;
 }
 .cgk-about {
-  background-image: linear-gradient(
-      171.69deg,
-      rgba(39, 28, 0, 0.5) 15%,
-      rgba(255, 186, 8, 0) 87.25%
-    ),
-    url("./assets/img/who-is-cogeek.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: scroll;

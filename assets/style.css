@@ -1,0 +1,26 @@
+.cgk-footer .cgk-copyright {
+  color: #fff;
+  margin: 0;
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+.cgk-footer a {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.cgk-footer a:hover {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.cgk-footer .follow-cgk a {
+  color: #fff;
+  font-size: 1.6rem;
+  margin-right: 0.5rem;
+}
+.bg-cogeek {
+  background-color: #20232a;
+}

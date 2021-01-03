@@ -13,6 +13,7 @@ import Navbar from "./Shared/Navbar";
 import Home from "./Home";
 import Contact from "./Contact";
 import Policy from "./Policy";
+import Condition from "./Condition";
 
 class Navigation extends React.Component {
   render() {
@@ -38,7 +39,7 @@ class Navigation extends React.Component {
               <Policy />
             </Route>
             <Route path="/term-condition">
-              <Home />
+              <Condition />
             </Route>
           </Switch>
           <CgkFooter />

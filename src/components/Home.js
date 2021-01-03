@@ -15,9 +15,12 @@ class Home extends React.Component {
           <p className="cgk-home-head-title">
             Software development team in vietnam
           </p>
-          <Link to="/contact" className="btn btn-cgk rounded-0 pl-3 pr-3 mt-3">
+          <a
+            href="/privacy-policy.html"
+            className="btn btn-cgk rounded-0 pl-3 pr-3 mt-3"
+          >
             Contact us
-          </Link>
+          </a>
         </div>
       </div>
     );

@@ -9,7 +9,7 @@ function CogeekFooter(props) {
         <div className="row align-items-center">
           <div className="col-md-6">
             <Link to="/">
-              <img src={logo} height="70px" alt="" />
+              <img src={logo} height="50px" alt="" />
             </Link>
             <p className="cgk-copyright mt-3">
               Copyright &copy; 2021 Cogeek. All rights reserved.
@@ -19,18 +19,28 @@ function CogeekFooter(props) {
             <div className="row">
               <div className="col-md-4">
                 <div>
-                  <Link to="/contact">Contact us</Link>
+                  <Link to="/">Home</Link>
+                </div>
+                <div>
+                  <Link to="/service">Service</Link>
                 </div>
                 <div>
                   <Link to="/about-us">About us</Link>
                 </div>
+                <div>
+                  <Link to="/contact">Contact us</Link>
+                </div>
               </div>
               <div className="col-md-4">
                 <div>
-                  <Link to="/term-condition">Terms & Conditions</Link>
+                  <a href="https://cogeekteam.github.io/term-and-condition.html">
+                    Terms & Conditions
+                  </a>
                 </div>
                 <div>
-                  <Link to="/privacy-policy">Privacy Policy</Link>
+                  <a href="https://cogeekteam.github.io/privacy-policy.html">
+                    Privacy Policy
+                  </a>
                 </div>
               </div>
               <div className="col-md-4 follow-cgk">

@@ -19,7 +19,7 @@ function Navbar(props) {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <NavLink className="navbar-brand pt-3 pb-3" to="/">
+        <NavLink className="navbar-brand" to="/">
           <img src={logo} height="40px" alt="" />
         </NavLink>
         <div className="collapse navbar-collapse" id="menu-top">

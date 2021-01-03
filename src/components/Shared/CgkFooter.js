@@ -4,17 +4,13 @@ import { Link } from "react-router-dom";
 
 function CogeekFooter(props) {
   return (
-    <div className="pt-5 pb-5 bg-cogeek cgk-footer text-center text-md-left">
+    <div className="pt-5 pb-4 bg-cogeek cgk-footer text-center text-md-left">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-6">
             <Link to="/">
               <img src={logo} height="50px" alt="" />
             </Link>
-            <p className="cgk-copyright mt-3">
-              Copyright &copy; 2021 Cogeek. Software Development Team In Viet
-              Nam.
-            </p>
           </div>
           <div className="col-md-6">
             <div className="row">
@@ -64,6 +60,12 @@ function CogeekFooter(props) {
                 </a>
               </div>
             </div>
+          </div>
+          <div className="col-12 text-center mt-4">
+            <p className="cgk-copyright mt-3">
+              Copyright &copy; 2021 Cogeek. Mobile Apps Development Team In
+              Vietnam.
+            </p>
           </div>
         </div>
       </div>

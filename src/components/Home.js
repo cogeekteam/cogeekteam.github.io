@@ -11,13 +11,14 @@ class Home extends React.Component {
       <div>
         {/* <Navigation id="navi-top" /> */}
         <div className="vh-100 cgk-home-header text-center">
-          <p className="cgk-home-head-name">cogeek</p>
-          <p className="cgk-home-head-title">
-            Software development team in vietnam
+          {/* <p className="cgk-home-head-name">cogeek</p> */}
+          <h1 className="text-white text-uppercase">make it possible</h1>
+          <p className="cgk-home-head-title mt-5">
+            Mobile apps development team in vietnam
           </p>
-          <a href="/contact" className="btn btn-cgk rounded-0 pl-3 pr-3 mt-3">
-            Contact us
-          </a>
+          <Link to="/" className="btn btn-cgk rounded-0 pl-5 pr-5 mt-3">
+            See more
+          </Link>
         </div>
       </div>
     );

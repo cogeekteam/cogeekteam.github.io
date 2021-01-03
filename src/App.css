@@ -3,6 +3,15 @@
 body {
   /* font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Roboto, Arial,
     sans-serif !important; */
+  color: #20232a;
+}
+#navi-top .navbar-brand {
+  transition: 0.5s;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+#navi-top .navbar-brand img {
+  transition: 0.5s;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -39,6 +48,26 @@ body {
   color: #fff;
   font-size: 1.8rem;
   text-transform: capitalize;
+}
+.cgk-about {
+  background-image: linear-gradient(
+      171.69deg,
+      rgba(39, 28, 0, 0.5) 15%,
+      rgba(255, 186, 8, 0) 87.25%
+    ),
+    url("./assets/img/who-is-cogeek.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  padding-top: 200px;
+  padding-bottom: 170px;
+  position: relative;
+}
+.arrow-object {
+  position: absolute;
+  bottom: -1px;
+  width: 100%;
+  left: 0;
 }
 
 .cgk-contact {
@@ -120,7 +149,33 @@ body {
   font-size: 1.6rem;
   margin-right: 0.5rem;
 }
-
+.team_card {
+  margin: 20px auto;
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 0 20px -10px #252525;
+}
+.member_image {
+  width: 100%;
+  text-align: center;
+}
+.member_image img {
+  border-radius: 50%;
+  border: 10px solid #2c2c2c1f;
+  object-fit: cover;
+  width: 180px;
+  height: 180px;
+  margin: 20px auto;
+}
+.member_inf {
+  text-transform: uppercase;
+  text-align: center;
+  color: #20232a;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -14,6 +14,8 @@ import Home from "./Home";
 import Contact from "./Contact";
 import Policy from "./Policy";
 import Condition from "./Condition";
+import About from "./About";
+import Service from "./Service";
 
 class Navigation extends React.Component {
   render() {
@@ -27,13 +29,13 @@ class Navigation extends React.Component {
               <Home />
             </Route>
             <Route path="/service">
-              <Home />
+              <Service />
             </Route>
             <Route path="/contact">
               <Contact />
             </Route>
             <Route path="/about-us">
-              <Contact />
+              <About />
             </Route>
             <Route path="/privacy-policy">
               <Policy />

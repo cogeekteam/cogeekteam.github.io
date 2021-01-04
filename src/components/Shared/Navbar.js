@@ -35,7 +35,7 @@ function Navbar(props) {
                   Home
                 </NavLink>
               </li>
-              <li className="nav-item ml-3 mr-3">
+              {/* <li className="nav-item ml-3 mr-3">
                 <NavLink
                   activeClassName="active"
                   className="nav-link nav-intro"
@@ -43,7 +43,7 @@ function Navbar(props) {
                 >
                   Service
                 </NavLink>
-              </li>
+              </li> */}
               <li className="nav-item ml-3 mr-3">
                 <NavLink
                   activeClassName="active"

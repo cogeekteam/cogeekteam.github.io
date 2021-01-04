@@ -18,9 +18,7 @@ function CogeekFooter(props) {
                 <div>
                   <Link to="/">Home</Link>
                 </div>
-                <div>
-                  <Link to="/service">Service</Link>
-                </div>
+                <div>{/* <Link to="/service">Service</Link> */}</div>
                 <div>
                   <Link to="/about-us">About us</Link>
                 </div>

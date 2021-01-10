@@ -1,16 +1,13 @@
 import React from "react";
 import imgAbout from "../assets/img/who-is-cogeek.jpg";
-import avtNghia from "../assets/img/nghia-nguyen-huu.png";
-import avtMinh from "../assets/img/minh-vuong.png";
-import avtHoaiY from "../assets/img/hoai-y-pham.png";
-import avtNam from "../assets/img/nam-hoang.png";
-import arrowObj from "../assets/img/arrow-object.svg";
+
 import bgAboutus from "../assets/img/who-is-cogeek.jpg";
+import cogeekTeam from "../assets/img/cogeek-team.svg";
 
 function About(props) {
   return (
     <article>
-      <header
+      {/* <header
         className="section cgk-about"
         style={{
           backgroundImage:
@@ -31,76 +28,32 @@ function About(props) {
           "We only fail when we stop trying"
         </p>
         <img className="arrow-object" src={arrowObj}></img>
-      </header>
-      <section className="section mt-5">
+      </header> */}
+      <section
+        id="scroll-target-about"
+        className="section min-vh-100 pt-5 about-us"
+      >
         <div className="container">
-          <div className="row">
+          <h1 className="font-weight-light text-center mb-0">
+            Who <b>We Are</b>
+          </h1>
+          <hr className="break-small"></hr>
+          <div className="row justify-content-center align-items-center">
             {/* <div className="col-md-6 mb-3">
             <img width="100%" src={imgAbout}></img>
           </div> */}
-            <div className="col-12 text-center">
-              <h4>Who we are</h4>
-              <p>
-                We are a dynamic team with a big dream of creating the best
-                productivity softwares for everyone.
-              </p>
-              <p>
-                We make people come close to technology easily, improve their
-                work performance.
-              </p>
-              <p>
-                Additionally, We give students opportunities to experience
-                professional, motivated and creative working environment.
-              </p>
+            <div className="col-md-6">
+              <img width="100%" src={cogeekTeam}></img>
             </div>
-          </div>
-          <div className="mb-5">
-            <h1
-              className="text-center font-weight-light"
-              style={{ paddingTop: 200 }}
-            >
-              Our Team
-            </h1>
-            <div className="row justify-content-center mt-4 mb-4">
-              <div className="team_card">
-                <div className="member_image">
-                  <img width="100%" src={avtNghia}></img>
-                </div>
-                <div className="member_inf">
-                  <h5>Nghia Nguyen</h5>
-                  <p>Member</p>
-                </div>
-              </div>
-
-              <div className="team_card">
-                <div className="member_image">
-                  <img width="100%" src={avtHoaiY}></img>
-                </div>
-                <div className="member_inf">
-                  <h5>Y Pham</h5>
-                  <p>Member</p>
-                </div>
-              </div>
-
-              <div className="team_card">
-                <div className="member_image">
-                  <img width="100%" src={avtMinh}></img>
-                </div>
-                <div className="member_inf">
-                  <h5>Minh Vuong</h5>
-                  <p>Member</p>
-                </div>
-              </div>
-
-              <div className="team_card">
-                <div className="member_image">
-                  <img width="100%" src={avtNam}></img>
-                </div>
-                <div className="member_inf">
-                  <h5>Nam Nguyen</h5>
-                  <p>Member</p>
-                </div>
-              </div>
+            <div className="col-md-6">
+              <p>
+                We are a dynamic team with a mission of bringing effective
+                mobile apps, make your life better.
+              </p>
+              <p>
+                We also give students opportunities to experience motivated and
+                creative working environment.
+              </p>
             </div>
           </div>
         </div>

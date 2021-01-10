@@ -1,9 +1,14 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"); */
 @import url("assets/css/Custom.css");
+@import url("assets//css//Sections.css");
 body {
   /* font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Roboto, Arial,
     sans-serif !important; */
   color: #20232a;
+}
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
 }
 #navi-top .navbar-brand {
   transition: 0.5s;
@@ -14,14 +19,26 @@ body {
   transition: 0.5s;
 }
 
+#navi-top .nav-link {
+  color: #ffffff;
+  font-weight: 300;
+  transition: 0.3s;
+}
+
+#navi-top .nav-link.active {
+  color: #06c4f9;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+#navi-top {
+  background-color: rgba(32, 35, 42, 0);
+}
 .bg-cogeek {
-  background-color: #20232a;
+  background-color: rgba(32, 35, 42, 1);
 }
 
 .cgk-home-header {
@@ -29,6 +46,14 @@ body {
   background-position: center;
   background-attachment: fixed;
   padding-top: 200px;
+}
+.btn-more {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.btn-more :hover {
+  color: rgba(255, 255, 255, 0.619);
 }
 
 .cgk-home-head-name {
@@ -51,15 +76,20 @@ body {
   padding-bottom: 170px;
   position: relative;
 }
+.about-us p {
+  font-size: 1.1rem;
+}
 .arrow-object {
   position: absolute;
   bottom: -1px;
   width: 100%;
   left: 0;
 }
-
+.cgk-dream-team {
+  /* background-color: #cae2ff; */
+}
 .cgk-contact {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       102.25deg,
       rgba(32, 35, 42, 0.9) 0%,
       rgba(32, 35, 42, 0.4) 100%
@@ -68,12 +98,8 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding-top: 200px;
-}
-
-.cgk-contact,
-.cgk-contact a {
-  color: #fff;
+  padding-top: 200px; */
+  background-color: #f8f9fa;
 }
 
 .btn-cgk {
@@ -122,7 +148,7 @@ body {
 }
 
 .cgk-footer a {
-  color: #fff;
+  color: #d9d9d9;
   font-size: 0.9rem;
   font-weight: 300;
 }
@@ -141,7 +167,7 @@ body {
   margin: 20px auto;
   width: 300px;
   background-color: #fff;
-  box-shadow: 0 0 20px -10px #252525;
+  box-shadow: 0 10px 15px -10px #252525;
 }
 .member_image {
   width: 100%;
@@ -164,11 +190,21 @@ img {
   vertical-align: middle;
   border-style: none;
 }
+
+hr.break-small {
+  border-top: 2px dotted #28a5df;
+  width: 160px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media (max-width: 768px) {
+  #navi-top {
+    background-color: rgba(32, 35, 42, 1);
   }
 }

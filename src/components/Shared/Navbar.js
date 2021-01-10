@@ -1,10 +1,10 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { a } from "react-router-dom";
 import logo from "../../logo.svg";
 function Navbar(props) {
   return (
     <nav
-      className="navbar fixed-top navbar-expand-md topbar navbar-dark bg-cogeek p-0"
+      className="navbar fixed-top navbar-expand-md topbar navbar-dark p-0"
       id="navi-top"
     >
       <div className="container">
@@ -19,48 +19,38 @@ function Navbar(props) {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <NavLink className="navbar-brand" to="/">
+        <a className="navbar-brand" href="/">
           <img src={logo} height="40px" alt="" />
-        </NavLink>
+        </a>
         <div className="collapse navbar-collapse" id="menu-top">
           <div className="col-md-12">
-            <ul className="navbar-nav justify-content-end">
+            <ul className="navbar-nav justify-content-end text-uppercase">
               <li className="nav-item ml-3 mr-3">
-                <NavLink
-                  exact
-                  activeClassName="active"
-                  className="nav-link nav-home"
-                  to="/"
-                >
+                <a className="nav-link nav-home" href="#scroll-target-home">
                   Home
-                </NavLink>
+                </a>
               </li>
               {/* <li className="nav-item ml-3 mr-3">
-                <NavLink
-                  activeClassName="active"
+                <a
+ 
                   className="nav-link nav-intro"
-                  to="/service"
+                  href="/service"
                 >
                   Service
-                </NavLink>
+                </a>
               </li> */}
               <li className="nav-item ml-3 mr-3">
-                <NavLink
-                  activeClassName="active"
-                  to="/about-us"
-                  className="nav-link nav-service"
-                >
+                <a href="#scroll-target-about" className="nav-link nav-about">
                   About us
-                </NavLink>
+                </a>
               </li>
               <li className="nav-item ml-3 mr-3">
-                <NavLink
-                  activeClassName="active"
+                <a
                   className="nav-link nav-contact"
-                  to="/contact"
+                  href="#scroll-target-contact"
                 >
                   Contact
-                </NavLink>
+                </a>
               </li>
             </ul>
           </div>

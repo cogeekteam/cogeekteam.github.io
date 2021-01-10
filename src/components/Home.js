@@ -3,13 +3,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "../App.css";
 // import Navigation from "./Shared/Navigation";
-import { Link } from "react-router-dom";
 import background from "../assets/img/cogeek-home-header-background.jpg";
 class Home extends React.Component {
   render() {
     return (
-      <div>
-        {/* <Navigation id="navi-top" /> */}
+      <div id="scroll-target-home">
         <div
           className="vh-100 cgk-home-header text-center"
           style={{
@@ -25,9 +23,9 @@ class Home extends React.Component {
           <p className="cgk-home-head-title mt-5">
             Mobile apps development team in vietnam
           </p>
-          <Link to="/" className="btn btn-cgk rounded-0 pl-5 pr-5 mt-3">
-            See more
-          </Link>
+          <a href="#scroll-target-about" className="btn-more">
+            <i class="fal fa-arrow-circle-down"></i>
+          </a>
         </div>
       </div>
     );

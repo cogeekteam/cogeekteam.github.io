@@ -10,9 +10,13 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <div className="min-vh-100 cgk-contact" style={{ paddingTop: 120 }}>
+      <div
+        className="min-vh-100 cgk-contact"
+        style={{ paddingTop: 120 }}
+        id="scroll-target-contact"
+      >
         <div className="container">
-          <div className="row">
+          <div className="row justify-content-center align-items-center">
             <div className="col-md-6 mb-5 mb-md-0">
               <h4 className="font-weight-bold text-uppercase mb-4">
                 Cogeek Development Team
@@ -36,27 +40,27 @@ class Contact extends React.Component {
               <p className="text-uppercase mb-1">
                 <b>OFFICE HOURS: </b>
               </p>
-              <p>9 AM – 6 PM Monday to Friday</p>
+              <p>9 AM – 7 PM Monday to Friday</p>
               <p className="text-uppercase mb-1">
                 <b>Follow us: </b>
               </p>
-              <div class="follow-cgk" style={{ fontSize: 30 }}>
+              <div className="follow-cgk" style={{ fontSize: 30 }}>
                 <a
                   href="https://www.facebook.com/cogeek.page/"
                   target="_blank"
                   rel="noreferrer"
-                  class="text-white"
+                  className=""
                   style={{ marginRight: 10 }}
                 >
-                  <i class="fab fa-facebook"></i>
+                  <i className="fab fa-facebook"></i>
                 </a>
                 <a
                   href="https://twitter.com/Cogeek_Team"
                   target="_blank"
                   rel="noreferrer"
-                  class="text-white"
+                  className=""
                 >
-                  <i class="fab fa-twitter"></i>
+                  <i className="fab fa-twitter"></i>
                 </a>
               </div>
             </div>

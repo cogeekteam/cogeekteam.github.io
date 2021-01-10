@@ -1,32 +1,33 @@
 import React from "react";
 import logo from "../../logo.svg";
-import { Link } from "react-router-dom";
 
 function CogeekFooter(props) {
   return (
     <div className="pt-5 pb-4 bg-cogeek cgk-footer text-center text-md-left">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-md-6">
-            <Link to="/">
+          <div className="col-md-6 mb-4 mb-md-0">
+            <a href="/">
               <img src={logo} height="50px" alt="" />
-            </Link>
+            </a>
           </div>
           <div className="col-md-6">
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-4 mb-4 mb-md-0">
+                <p className="text-white text-uppercase mb-0">content</p>
                 <div>
-                  <Link to="/">Home</Link>
+                  <a href="#scroll-target-home">Home</a>
                 </div>
-                <div>{/* <Link to="/service">Service</Link> */}</div>
+                <div>{/* <a href="/service">Service</a> */}</div>
                 <div>
-                  <Link to="/about-us">About us</Link>
+                  <a href="#scroll-target-about">About us</a>
                 </div>
                 <div>
-                  <Link to="/contact">Contact us</Link>
+                  <a href="#scroll-target-contact">Contact us</a>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 mb-4 mb-md-0">
+                <p className="text-white text-uppercase mb-0">legal</p>
                 <div>
                   <a href="https://cogeekteam.github.io/term-and-condition.html">
                     Terms & Conditions
@@ -39,7 +40,7 @@ function CogeekFooter(props) {
                 </div>
               </div>
               <div className="col-md-4 follow-cgk">
-                <p className="text-white mb-0">Follow us</p>
+                <p className="text-white text-uppercase mb-0">SOCIAL MEDIA</p>
                 <a
                   href="https://www.facebook.com/cogeek.page/"
                   target="_blank"

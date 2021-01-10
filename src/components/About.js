@@ -47,7 +47,7 @@ function About(props) {
             </div>
             <div className="col-md-6">
               <p>
-                We are a dynamic team with a mission of bringing effective
+                We are a dynamic team with a mission of creating effective
                 mobile apps, make your life better.
               </p>
               <p>

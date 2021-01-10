@@ -7,10 +7,12 @@ body {
   color: #20232a;
 }
 html {
+  text-rendering: optimizeLegibility;
+}
+* {
   scroll-behavior: smooth;
   overflow-y: scroll !important;
   -webkit-overflow-scrolling: touch;
-  text-rendering: optimizeLegibility;
 }
 #navi-top .navbar-brand {
   transition: 0.5s;

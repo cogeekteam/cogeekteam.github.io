@@ -6,6 +6,9 @@ body {
     sans-serif !important; */
   color: #20232a;
 }
+* {
+  -webkit-overflow-scrolling: touch;
+}
 html {
   scroll-behavior: smooth;
   text-rendering: optimizeLegibility;

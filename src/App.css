@@ -6,12 +6,10 @@ body {
     sans-serif !important; */
   color: #20232a;
 }
-* {
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
-}
 html {
   scroll-behavior: smooth;
+  overflow-y: scroll !important;
+  -webkit-overflow-scrolling: touch;
   text-rendering: optimizeLegibility;
 }
 #navi-top .navbar-brand {
@@ -89,9 +87,7 @@ html {
   width: 100%;
   left: 0;
 }
-.cgk-dream-team {
-  /* background-color: #cae2ff; */
-}
+
 .cgk-contact {
   /* background-image: linear-gradient(
       102.25deg,

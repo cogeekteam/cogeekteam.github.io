@@ -5,7 +5,6 @@ body {
   /* font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Roboto, Arial,
     sans-serif !important; */
   color: #20232a;
-  overscroll-behavior-y: none;
   position: fixed;
 }
 html {

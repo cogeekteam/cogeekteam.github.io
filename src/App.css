@@ -5,7 +5,15 @@ body {
   /* font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Roboto, Arial,
     sans-serif !important; */
   color: #20232a;
-  position: relative;
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
 }
 html {
   text-rendering: optimizeLegibility;

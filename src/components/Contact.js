@@ -10,13 +10,9 @@ class Contact extends React.Component {
 
   render() {
     return (
-      <div
-        className="min-vh-100 cgk-contact"
-        style={{ paddingTop: 120 }}
-        id="scroll-target-contact"
-      >
+      <div className="cgk-contact" id="scroll-target-contact">
         <div className="container">
-          <div className="row justify-content-center align-items-center">
+          <div className="row min-vh-100 justify-content-center align-items-center">
             <div className="col-md-6 mb-5 mb-md-0">
               <h4 className="font-weight-bold text-uppercase mb-4">
                 Cogeek Development Team

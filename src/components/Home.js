@@ -23,7 +23,7 @@ class Home extends React.Component {
           <p className="cgk-home-head-title mt-5">
             Mobile apps development team in vietnam
           </p>
-          <a href="#scroll-target-about" className="btn-more">
+          <a href="#scroll-target-about" className="btn-more mt-5">
             <i className="fal fa-arrow-circle-down"></i>
           </a>
         </div>

@@ -18,6 +18,7 @@ import About from "./About";
 import Service from "./Service";
 import Section1 from "./sections/Section1";
 import DreamTeam from "./DreamTeam";
+import ButtonScrollTop from "./Shared/ButtonScrollTop";
 
 class Navigation extends React.Component {
   render() {
@@ -57,6 +58,7 @@ class Navigation extends React.Component {
         <Section1 />
         <Contact />
         <CgkFooter />
+        <ButtonScrollTop />
       </div>
     );
   }

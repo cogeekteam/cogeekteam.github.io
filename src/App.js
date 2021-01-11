@@ -34,10 +34,10 @@ class App extends React.Component {
     }
     window.onscroll = function () {
       var currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > hContact - 50) {
+      if (prevScrollpos >= hContact - 100) {
         $(".nav-link").removeClass("active");
         $(".nav-contact").addClass("active");
-      } else if (prevScrollpos > hAbout - 50) {
+      } else if (prevScrollpos >= hAbout - 100) {
         $(".nav-link").removeClass("active");
         $(".nav-about").addClass("active");
       } else {
@@ -46,7 +46,7 @@ class App extends React.Component {
       }
       if (prevScrollpos > currentScrollPos) {
         if (prevScrollpos <= 100) {
-          $("#navi-top").css("background-color", "rgba(32, 35, 42, 0)");
+          $("#navi-top").css("background-color", "rgba(32, 35, 42, 0.9)");
           $("#navi-top .navbar-brand img").css("height", "40px");
           $("#navi-top .navbar-brand ").css("padding-top", "1.2rem");
           $("#navi-top .navbar-brand ").css("padding-bottom", "1.2rem");

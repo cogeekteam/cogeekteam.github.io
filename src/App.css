@@ -4,28 +4,13 @@
 body {
   /* font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Roboto, Arial,
     sans-serif !important; */
-  overflow-y: scroll;
   color: #20232a;
-  background-image: initial;
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat-x: initial;
-  background-repeat-y: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
 }
 html {
   text-rendering: optimizeLegibility;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
-* {
-  -webkit-overflow-scrolling: touch;
-  /* -webkit-transform: translateZ(0px); */
-  /* -webkit-transform: translate3d(0, 0, 0); */
-  /* -webkit-perspective: 1000; */
-}
+
 #navi-top .navbar-brand {
   transition: 0.5s;
   padding-top: 1.2rem;

@@ -9,15 +9,16 @@ class App extends React.Component {
       if (this.hash !== "") {
         event.preventDefault();
         var hash = this.hash;
-        $("html").animate(
-          {
-            scrollTop: $(hash).offset().top,
-          },
-          1,
-          function () {
-            $("html").clearQueue();
-          }
-        );
+        // $("html, body").animate(
+        //   {
+        //     scrollTop: $(hash).offset().top,
+        //   },
+        //   1,
+        //   function () {
+        //     $("html, body").clearQueue();
+        //   }
+        // );
+        $("html, body").animate({ scrollTop: $(hash).offset().top });
         window.location.href.substr(0, window.location.href.indexOf("#"));
       } // End if
     });

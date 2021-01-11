@@ -9,7 +9,7 @@ body {
 }
 html {
   text-rendering: optimizeLegibility;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 #navi-top .navbar-brand {
@@ -44,7 +44,7 @@ html {
 }
 
 .cgk-home-header {
-  position: initial;
+  position: relative;
   background-image: linear-gradient(
       102.25deg,
       rgba(32, 35, 42, 0.9) 0%,

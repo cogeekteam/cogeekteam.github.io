@@ -4,6 +4,7 @@
 body {
   /* font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Roboto, Arial,
     sans-serif !important; */
+  overflow-y: scroll;
   color: #20232a;
   background-image: initial;
   background-position-x: initial;
@@ -57,7 +58,7 @@ html {
 }
 
 .cgk-home-header {
-  position: relative;
+  position: initial;
   background-image: linear-gradient(
       102.25deg,
       rgba(32, 35, 42, 0.9) 0%,

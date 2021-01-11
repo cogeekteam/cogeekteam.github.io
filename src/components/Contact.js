@@ -33,7 +33,11 @@ class Contact extends React.Component {
               </p>
               <p>
                 cogeek.contact@gmail.com{"  "}
-                <a target="_blank" href="mailto:cogeek.contact@gmail.com">
+                <a
+                  target="_blank"
+                  rel="external nofollow noopener"
+                  href="mailto:cogeek.contact@gmail.com"
+                >
                   <i className="fal fa-paper-plane"></i>
                 </a>
               </p>

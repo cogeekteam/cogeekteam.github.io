@@ -10,13 +10,13 @@ class Home extends React.Component {
       <div id="scroll-target-home">
         <div
           className="vh-100 cgk-home-header text-center"
-          style={{
-            backgroundImage:
-              "linear-gradient(102.25deg,rgba(32, 35, 42, 0.9) 0%,rgba(32, 35, 42, 0.4) 100%)," +
-              "url(" +
-              background +
-              ")",
-          }}
+          // style={{
+          //   backgroundImage:
+          //     "linear-gradient(102.25deg,rgba(32, 35, 42, 0.9) 0%,rgba(32, 35, 42, 0.4) 100%)," +
+          //     "url(" +
+          //     background +
+          //     ")",
+          // }}
         >
           {/* <p className="cgk-home-head-name">cogeek</p> */}
           <h1 className="text-white text-uppercase">make it possible</h1>

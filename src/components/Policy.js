@@ -220,7 +220,11 @@ function Policy(props) {
         Persistent Cookies remain on Your personal computer or mobile device
         when You go offline, while Session Cookies are deleted as soon as You
         close Your web browser. You can learn more about cookies here:{" "}
-        <a href="https://www.termsfeed.com/blog/cookies/" target="_blank">
+        <a
+          href="https://www.termsfeed.com/blog/cookies/"
+          rel="external nofollow noopener"
+          target="_blank"
+        >
           All About Cookies by TermsFeed
         </a>
         .

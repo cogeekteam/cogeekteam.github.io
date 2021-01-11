@@ -5,13 +5,18 @@ body {
   /* font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, Roboto, Arial,
     sans-serif !important; */
   color: #20232a;
+  overscroll-behavior-y: none;
+  position: fixed;
 }
 html {
   text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
 }
 * {
-  scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
+  /* -webkit-transform: translateZ(0px); */
+  /* -webkit-transform: translate3d(0, 0, 0); */
+  /* -webkit-perspective: 1000; */
 }
 #navi-top .navbar-brand {
   transition: 0.5s;
@@ -45,6 +50,12 @@ html {
 }
 
 .cgk-home-header {
+  background-image: linear-gradient(
+      102.25deg,
+      rgba(32, 35, 42, 0.9) 0%,
+      rgba(32, 35, 42, 0.4) 100%
+    ),
+    url("./assets/img/cogeek-home-header-background.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

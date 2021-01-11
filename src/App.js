@@ -9,17 +9,19 @@ class App extends React.Component {
       if (this.hash !== "") {
         event.preventDefault();
         var hash = this.hash;
-        $([document.documentElement, document.body]).animate(
+        $("html").animate(
           {
             scrollTop: $(hash).offset().top,
           },
-          0
+          1,
+          function () {
+            $("html").clearQueue();
+          }
         );
         window.location.href.substr(0, window.location.href.indexOf("#"));
       } // End if
     });
     var hAbout = $("#scroll-target-about").offset().top,
-      hHome = $("#scroll-target-home").offset().top,
       hContact = $("#scroll-target-contact").offset().top;
 
     var prevScrollpos = window.pageYOffset;

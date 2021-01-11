@@ -24,7 +24,7 @@ class Home extends React.Component {
             Mobile apps development team in vietnam
           </p>
           <a href="#scroll-target-about" className="btn-more">
-            <i class="fal fa-arrow-circle-down"></i>
+            <i className="fal fa-arrow-circle-down"></i>
           </a>
         </div>
       </div>

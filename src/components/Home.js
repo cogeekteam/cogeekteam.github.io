@@ -7,7 +7,7 @@ import background from "../assets/img/cogeek-home-header-background.jpg";
 class Home extends React.Component {
   render() {
     return (
-      <div id="scroll-target-home">
+      <section id="scroll-target-home">
         <div
           className="vh-100 cgk-home-header text-center"
           // style={{
@@ -27,7 +27,7 @@ class Home extends React.Component {
             <i className="fal fa-arrow-circle-down"></i>
           </a>
         </div>
-      </div>
+      </section>
     );
   }
 }

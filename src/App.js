@@ -18,7 +18,7 @@ class App extends React.Component {
         //     $("html, body").clearQueue();
         //   }
         // );
-        $("html, body").animate({ scrollTop: $(hash).offset().top });
+        $(document).scrollTop($(hash).offset().top);
         window.location.href.substr(0, window.location.href.indexOf("#"));
       } // End if
     });

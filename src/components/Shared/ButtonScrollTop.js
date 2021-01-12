@@ -26,6 +26,9 @@ class ButtonScrollTop extends React.Component {
   componentDidMount() {
     window.addEventListener("scroll", this.displayButton);
   }
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.displayButton, false);
+  }
 
   render() {
     return (

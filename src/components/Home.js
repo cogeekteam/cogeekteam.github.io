@@ -20,7 +20,7 @@ class Home extends React.Component {
         >
           {/* <p className="cgk-home-head-name">cogeek</p> */}
           <h1 className="text-white text-uppercase font-weight-bold">
-            make it possible
+            make it happen
           </h1>
           <p className="cgk-home-head-title mt-5">
             Mobile apps development team in vietnam

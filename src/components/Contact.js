@@ -52,7 +52,7 @@ class Contact extends React.Component {
                   className=""
                   style={{ marginRight: 10 }}
                 >
-                  <i className="fab fa-facebook"></i>
+                  <i className="fab fa-facebook facebook-color"></i>
                 </a>
                 <a
                   href="https://twitter.com/Cogeek_Team"

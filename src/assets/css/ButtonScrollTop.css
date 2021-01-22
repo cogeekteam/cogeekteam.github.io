@@ -1,0 +1,19 @@
+.btn-scrollTop {
+  position: fixed;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 14px 0px;
+  border: 0px;
+  height: 46px;
+  width: 46px;
+  background-color: #06c4f9;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  transition: 0.3s;
+  outline-style: none !important;
+}
+.btn-scrollTop:focus {
+  outline-style: none !important;
+}

@@ -8,7 +8,7 @@ import arrowObj from "../assets/img/arrow-object.svg";
 function DreamTeam(props) {
   return (
     <div className="container">
-      <div className="row min-vh-100 justify-content-center align-items-center">
+      <div className="row min-vh-100 justify-content-center align-items-center mb-3 mb-md-0">
         <div className="col-12">
           <div className="cgk-dream-team">
             <h1 className="text-center font-weight-light">Our Team</h1>
@@ -21,6 +21,18 @@ function DreamTeam(props) {
                 <div className="member_inf">
                   <h5>Nghia Nguyen</h5>
                   <p>Member</p>
+                  <div className="mb-3 member_contact">
+                    <a
+                      className="m-2"
+                      href="https://www.facebook.com/cogeek.page"
+                      target="_blank"
+                    >
+                      <i className="fab fa-facebook facebook-color"></i>
+                    </a>
+                    <a className="m-2" href="#">
+                      <i className="fas fa-globe"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
 
@@ -31,10 +43,22 @@ function DreamTeam(props) {
                 <div className="member_inf">
                   <h5>Y Pham</h5>
                   <p>Member</p>
+                  <div className="mb-3 member_contact">
+                    <a
+                      className="m-2"
+                      href="https://www.facebook.com/cogeek.page"
+                      target="_blank"
+                    >
+                      <i className="fab fa-facebook facebook-color"></i>
+                    </a>
+                    <a className="m-2" href="#">
+                      <i className="fas fa-globe"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
 
-              <div className="team_card">
+              {/* <div className="team_card">
                 <div className="member_image">
                   <img width="100%" src={avtMinh}></img>
                 </div>
@@ -42,19 +66,33 @@ function DreamTeam(props) {
                   <h5>Minh Vuong</h5>
                   <p>Member</p>
                 </div>
+              </div> */}
+              <div className="team_card">
+                <div className="member_image">
+                  <img width="100%" src={avtNam}></img>
+                </div>
+                <div className="member_inf">
+                  <h5>Nam Nguyen</h5>
+                  <p>Member</p>
+                  <div className="mb-3 member_contact">
+                    <a
+                      className="m-2"
+                      href="https://www.facebook.com/cogeek.page"
+                      target="_blank"
+                    >
+                      <i className="fab fa-facebook facebook-color"></i>
+                    </a>
+                    <a className="m-2" href="#">
+                      <i className="fas fa-globe"></i>
+                    </a>
+                  </div>
+                </div>
               </div>
-              {/* <div className="team_card">
-            <div className="member_image">
-              <img width="100%" src={avtNam}></img>
-            </div>
-            <div className="member_inf">
-              <h5>Nam Nguyen</h5>
-              <p>Member</p>
-            </div>
-          </div> */}
             </div>
             <div className="text-center mt-4">
-              <a href="/">See more</a>
+              <a className="btn-member_seemore" href="#">
+                See more
+              </a>
             </div>
           </div>
         </div>

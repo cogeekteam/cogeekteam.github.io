@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 @import url("assets/css/Custom.css");
 @import url("assets//css//Sections.css");
+@import url("assets/css/ButtonScrollTop.css");
 body {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, Roboto, Arial,
     sans-serif !important;
@@ -167,7 +168,12 @@ html {
 }
 
 .cgk-footer .follow-cgk a {
-  color: #fff;
+  color: #fff !important;
+  font-size: 1.6rem;
+  margin-right: 0.5rem;
+}
+.cgk-contact .follow-cgk a {
+  color: #06c4f9;
   font-size: 1.6rem;
   margin-right: 0.5rem;
 }
@@ -192,7 +198,28 @@ html {
 .member_inf {
   text-transform: uppercase;
   text-align: center;
-  color: #20232a;
+  color: #586074;
+
+  font-size: 0.9rem;
+}
+
+.member_inf .member_contact {
+  font-size: 20px;
+}
+
+.facebook-color {
+  color: #4267b2;
+}
+
+.cgk-dream-team .member_inf a {
+  color: #28a5df;
+  font-size: 1.3rem;
+}
+.cgk-dream-team .btn-member_seemore {
+  font-size: 0.9rem;
+}
+.cgk-dream-team .btn-member_seemore:hover {
+  text-decoration: none;
 }
 img {
   vertical-align: middle;
@@ -204,25 +231,6 @@ hr.break-small {
   width: 160px;
 }
 
-.btn-scrollTop {
-  position: fixed;
-  border-radius: 50%;
-  font-size: 1.4rem;
-  color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 14px 0px;
-  border: 0px;
-  height: 56px;
-  width: 56px;
-  background-color: #06c4f9;
-  bottom: 20px;
-  right: 20px;
-  opacity: 0;
-  transition: 0.3s;
-  outline-style: none !important;
-}
-.btn-scrollTop:focus {
-  outline-style: none !important;
-}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

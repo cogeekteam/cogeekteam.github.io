@@ -62,7 +62,7 @@ function CogeekFooter(props) {
           </div>
           <div className="col-12 text-center mt-4">
             <p className="cgk-copyright mt-3">
-              Copyright &copy; 2021 Cogeek. Mobile Apps Development Team In
+              Copyright &copy; 2021 Cogeek - Mobile Apps Development Team In
               Vietnam.
             </p>
           </div>

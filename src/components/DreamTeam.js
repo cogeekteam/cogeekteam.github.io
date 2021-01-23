@@ -41,7 +41,7 @@ function DreamTeam(props) {
                   <img width="100%" src={avtHoaiY}></img>
                 </div>
                 <div className="member_inf">
-                  <h5>Y Pham</h5>
+                  <h5>HY Pham</h5>
                   <p>Member</p>
                   <div className="mb-3 member_contact">
                     <a

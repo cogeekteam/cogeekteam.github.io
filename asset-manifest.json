@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8ca41043.chunk.css",
-    "main.js": "/static/js/main.0668338f.chunk.js",
-    "main.js.map": "/static/js/main.0668338f.chunk.js.map",
+    "main.js": "/static/js/main.361a1a98.chunk.js",
+    "main.js.map": "/static/js/main.361a1a98.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0e88022b.js",
     "runtime-main.js.map": "/static/js/runtime-main.0e88022b.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
@@ -17,7 +17,7 @@
     "static/media/arrow-object.7fb0a85b.svg": "/static/media/arrow-object.7fb0a85b.svg",
     "static/media/cogeek-home-header-background.91dd5314.jpg": "/static/media/cogeek-home-header-background.91dd5314.jpg",
     "static/media/cogeek-team.262920bc.svg": "/static/media/cogeek-team.262920bc.svg",
-    "static/media/happy.ed6092be.jpg": "/static/media/happy.ed6092be.jpg",
+    "static/media/happy.35a9e924.jpg": "/static/media/happy.35a9e924.jpg",
     "static/media/hoai-y-pham.7d9f7bad.png": "/static/media/hoai-y-pham.7d9f7bad.png",
     "static/media/logo.408b8329.svg": "/static/media/logo.408b8329.svg",
     "static/media/minh-vuong.3c204a47.png": "/static/media/minh-vuong.3c204a47.png",
@@ -30,6 +30,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.551f8102.chunk.js",
     "static/css/main.8ca41043.chunk.css",
-    "static/js/main.0668338f.chunk.js"
+    "static/js/main.361a1a98.chunk.js"
   ]
 }

@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.8ca41043.chunk.css",
-    "main.js": "/static/js/main.7aa53721.chunk.js",
-    "main.js.map": "/static/js/main.7aa53721.chunk.js.map",
+    "main.js": "/static/js/main.7e893cfb.chunk.js",
+    "main.js.map": "/static/js/main.7e893cfb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0e88022b.js",
     "runtime-main.js.map": "/static/js/runtime-main.0e88022b.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.551f8102.chunk.js": "/static/js/2.551f8102.chunk.js",
-    "static/js/2.551f8102.chunk.js.map": "/static/js/2.551f8102.chunk.js.map",
+    "static/js/2.f735c9bb.chunk.js": "/static/js/2.f735c9bb.chunk.js",
+    "static/js/2.f735c9bb.chunk.js.map": "/static/js/2.f735c9bb.chunk.js.map",
     "static/js/3.91bde90b.chunk.js": "/static/js/3.91bde90b.chunk.js",
     "static/js/3.91bde90b.chunk.js.map": "/static/js/3.91bde90b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/static/css/2.20aa2d7b.chunk.css.map",
     "static/css/main.8ca41043.chunk.css.map": "/static/css/main.8ca41043.chunk.css.map",
-    "static/js/2.551f8102.chunk.js.LICENSE.txt": "/static/js/2.551f8102.chunk.js.LICENSE.txt",
+    "static/js/2.f735c9bb.chunk.js.LICENSE.txt": "/static/js/2.f735c9bb.chunk.js.LICENSE.txt",
     "static/media/arrow-object.7fb0a85b.svg": "/static/media/arrow-object.7fb0a85b.svg",
     "static/media/cogeek-home-header-background.bc098eaa.jpg": "/static/media/cogeek-home-header-background.bc098eaa.jpg",
-    "static/media/cogeek-team.262920bc.svg": "/static/media/cogeek-team.262920bc.svg",
+    "static/media/cogeek-team.a8246880.svg": "/static/media/cogeek-team.a8246880.svg",
     "static/media/happy.35a9e924.jpg": "/static/media/happy.35a9e924.jpg",
     "static/media/hoai-y-pham.63551283.png": "/static/media/hoai-y-pham.63551283.png",
-    "static/media/logo.408b8329.svg": "/static/media/logo.408b8329.svg",
+    "static/media/logo.600aef5f.svg": "/static/media/logo.600aef5f.svg",
     "static/media/minh-vuong.5e23f158.png": "/static/media/minh-vuong.5e23f158.png",
     "static/media/nam-hoang.30e80443.png": "/static/media/nam-hoang.30e80443.png",
     "static/media/nghia-nguyen-huu.688cdd44.png": "/static/media/nghia-nguyen-huu.688cdd44.png",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.0e88022b.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.551f8102.chunk.js",
+    "static/js/2.f735c9bb.chunk.js",
     "static/css/main.8ca41043.chunk.css",
-    "static/js/main.7aa53721.chunk.js"
+    "static/js/main.7e893cfb.chunk.js"
   ]
 }

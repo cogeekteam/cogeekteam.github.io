@@ -45,7 +45,7 @@ const TeamCard = ({ name, avatar, role, faceBook, linkedIn }) => {
   return (
     <div className="team_card">
       <div className="member_image">
-        <img alt="cogeek-dream-team" width="100%" src={avatar}></img>
+        <img width="100%" src={avatar}></img>
       </div>
       <div className="member_inf">
         <p className="member_name">{name}</p>

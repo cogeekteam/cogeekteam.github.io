@@ -55,7 +55,7 @@ class Navbar extends React.Component {
         $("#navi-top .navbar-brand ").css("padding-top", "0.8rem");
         $("#navi-top .navbar-brand ").css("padding-bottom", "0.8rem");
         $("#navi-top").css("top", 0);
-      } else {
+      } else if (this.prevScrollpos > 70) {
         $("#navi-top").css("top", -100);
       }
     }

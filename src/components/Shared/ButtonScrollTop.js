@@ -1,12 +1,8 @@
 import React from "react";
 import $ from "jquery";
-import { render } from "@testing-library/react";
 class ButtonScrollTop extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { isToggleOn: true };
-
-    // This binding is necessary to make `this` work in the callback
     this.clickScrollTop = this.clickScrollTop.bind(this);
   }
   clickScrollTop = () => {

@@ -25,6 +25,12 @@ class Navbar extends React.Component {
       $(".nav-contact").addClass("active");
     } else if (
       currentScrollPos >=
+      $("#scroll-target-projects").offset().top - 100
+    ) {
+      $(".nav-link").removeClass("active");
+      $(".nav-projects").addClass("active");
+    } else if (
+      currentScrollPos >=
       $("#scroll-target-about").offset().top - 100
     ) {
       $(".nav-link").removeClass("active");
@@ -35,18 +41,22 @@ class Navbar extends React.Component {
     }
     if (this.prevScrollpos > currentScrollPos) {
       if (this.prevScrollpos <= 100) {
-        $("#navi-top").css("background-color", "rgba(32, 35, 42, 0.9)");
+        $("#navi-top").css("background-color", "rgba(32, 35, 42, 0)");
         $("#navi-top .navbar-brand img").css("height", "40px");
         $("#navi-top .navbar-brand ").css("padding-top", "1.2rem");
         $("#navi-top .navbar-brand ").css("padding-bottom", "1.2rem");
+        $("#navi-top").css("top", 0);
       }
     } else {
       // scroll down
-      if (this.prevScrollpos > 70) {
+      if (this.prevScrollpos > window.innerHeight) {
         $("#navi-top").css("background-color", "rgba(32, 35, 42, 1)");
         $("#navi-top .navbar-brand img").css("height", "25px");
         $("#navi-top .navbar-brand ").css("padding-top", "0.8rem");
         $("#navi-top .navbar-brand ").css("padding-bottom", "0.8rem");
+        $("#navi-top").css("top", 0);
+      } else {
+        $("#navi-top").css("top", -100);
       }
     }
     this.prevScrollpos = currentScrollPos;
@@ -80,18 +90,17 @@ class Navbar extends React.Component {
                     Home
                   </a>
                 </li>
-                {/* <li className="nav-item ml-3 mr-3">
-                  <a
-   
-                    className="nav-link nav-intro"
-                    href="/service"
-                  >
-                    Service
-                  </a>
-                </li> */}
                 <li className="nav-item ml-3 mr-3">
                   <a href="#scroll-target-about" className="nav-link nav-about">
                     About us
+                  </a>
+                </li>
+                <li className="nav-item ml-3 mr-3">
+                  <a
+                    className="nav-link nav-projects"
+                    href="#scroll-target-projects"
+                  >
+                    Projects
                   </a>
                 </li>
                 <li className="nav-item ml-3 mr-3">

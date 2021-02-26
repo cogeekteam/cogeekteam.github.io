@@ -13,17 +13,14 @@ class Contact extends React.Component {
       <div className="cgk-contact" id="scroll-target-contact">
         <div className="container">
           <div className="row min-vh-100 justify-content-center align-items-center">
-            <div className="col-md-6 mb-5 mb-md-0">
+            <div className="col-md-6 mb-5 mb-md-0 p-4">
               <h4 className="font-weight-bold text-uppercase mb-4">
                 Cogeek Development Team
               </h4>
               <p className="text-uppercase mb-1">
                 <b>Address: </b>
               </p>
-              <p>
-                301 Cu Xa Duong, Quarter 10, Mac Dinh Chi Street, An Binh Ward,
-                Bien Hoa City, Dong Nai Province, Viet Nam.
-              </p>
+              <p>Mac Dinh Chi, An Binh, Bien Hoa, Dong Nai, Viet Nam.</p>
               <p className="text-uppercase mb-1">
                 <b>Email: </b>
               </p>

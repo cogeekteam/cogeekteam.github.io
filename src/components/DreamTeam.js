@@ -1,10 +1,22 @@
 import React from "react";
-import avtNghia from "../assets/img/nghia-nguyen-huu.png";
-import avtMinh from "../assets/img/minh-vuong.png";
-import avtHoaiY from "../assets/img/hoai-y-pham.png";
-import avtNam from "../assets/img/nam-hoang.png";
-import arrowObj from "../assets/img/arrow-object.svg";
-
+import avtNghia from "../assets/img/nghia-nguyen-huu.jpg";
+// import avtMinh from "../assets/img/minh-vuong.png";
+import avtHoaiY from "../assets/img/hoai-y-pham.jpg";
+import avtNam from "../assets/img/nam-nguyen-huu.jpg";
+let memberList = [
+  {
+    name: "Nghia Nguyen",
+    avatar: avtNghia,
+  },
+  {
+    name: "HY Pham",
+    avatar: avtHoaiY,
+  },
+  {
+    name: "Nam Nguyen",
+    avatar: avtNam,
+  },
+];
 function DreamTeam(props) {
   return (
     <div className="container">
@@ -14,91 +26,44 @@ function DreamTeam(props) {
             <h1 className="text-center font-weight-light">Our Team</h1>
             <hr className="break-small"></hr>
             <div className="row justify-content-center mt-5">
-              <div className="team_card">
-                <div className="member_image">
-                  <img width="100%" src={avtNghia}></img>
-                </div>
-                <div className="member_inf">
-                  <h5>Nghia Nguyen</h5>
-                  <p>Member</p>
-                  <div className="mb-3 member_contact">
-                    <a
-                      className="m-2"
-                      href="https://www.facebook.com/cogeek.page"
-                      target="_blank"
-                    >
-                      <i className="fab fa-facebook facebook-color"></i>
-                    </a>
-                    <a className="m-2" href="#">
-                      <i className="fas fa-globe"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="team_card">
-                <div className="member_image">
-                  <img width="100%" src={avtHoaiY}></img>
-                </div>
-                <div className="member_inf">
-                  <h5>HY Pham</h5>
-                  <p>Member</p>
-                  <div className="mb-3 member_contact">
-                    <a
-                      className="m-2"
-                      href="https://www.facebook.com/cogeek.page"
-                      target="_blank"
-                    >
-                      <i className="fab fa-facebook facebook-color"></i>
-                    </a>
-                    <a className="m-2" href="#">
-                      <i className="fas fa-globe"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              {/* <div className="team_card">
-                <div className="member_image">
-                  <img width="100%" src={avtMinh}></img>
-                </div>
-                <div className="member_inf">
-                  <h5>Minh Vuong</h5>
-                  <p>Member</p>
-                </div>
-              </div> */}
-              <div className="team_card">
-                <div className="member_image">
-                  <img width="100%" src={avtNam}></img>
-                </div>
-                <div className="member_inf">
-                  <h5>Nam Nguyen</h5>
-                  <p>Member</p>
-                  <div className="mb-3 member_contact">
-                    <a
-                      className="m-2"
-                      href="https://www.facebook.com/cogeek.page"
-                      target="_blank"
-                    >
-                      <i className="fab fa-facebook facebook-color"></i>
-                    </a>
-                    <a className="m-2" href="#">
-                      <i className="fas fa-globe"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
+              {memberList.map((item, index) => (
+                <TeamCard key={index} name={item.name} avatar={item.avatar} />
+              ))}
             </div>
-            <div className="text-center mt-4">
+            {/* <div className="text-center mt-4">
               <a className="btn-member_seemore" href="#">
                 See more
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
     </div>
   );
 }
-
+const TeamCard = ({ name, avatar, role, faceBook, linkedIn }) => {
+  return (
+    <div className="team_card">
+      <div className="member_image">
+        <img alt="cogeek-dream-team" width="100%" src={avatar}></img>
+      </div>
+      <div className="member_inf">
+        <p className="member_name">{name}</p>
+        <p>{role ? role : "Member"}</p>
+        <div className="mb-3 member_contact">
+          <a
+            className="m-2"
+            href={faceBook ? faceBook : "https://www.facebook.com/cogeek.page"}
+            target="_blank"
+          >
+            <i className="fab fa-facebook facebook-color"></i>
+          </a>
+          <a className="m-2" href={linkedIn ? linkedIn : "#"}>
+            <i className="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};
 export default DreamTeam;

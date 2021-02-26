@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
 @import url("assets/css/Custom.css");
 @import url("assets//css//Sections.css");
 @import url("assets/css/ButtonScrollTop.css");
 body {
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, Roboto, Arial,
-    sans-serif !important;
+  font-family: "Nunito", -apple-system, Arial, sans-serif !important;
   color: #20232a;
   -webkit-overflow-scrolling: touch;
 }
@@ -23,9 +22,9 @@ html {
 }
 
 #navi-top .nav-link {
-  color: #ffffff;
+  color: #fff;
   font-size: 0.9rem;
-  /* font-weight: 300; */
+  font-weight: 600;
   /* transition: 0.3s; */
 }
 
@@ -40,6 +39,7 @@ html {
 }
 #navi-top {
   background-color: rgba(32, 35, 42, 0.9);
+  transition: 0.5s;
 }
 .bg-cogeek {
   background-color: rgba(32, 35, 42, 1);
@@ -47,16 +47,12 @@ html {
 
 .cgk-home-header {
   position: relative;
-  /* background-image: linear-gradient(
-      102.25deg,
-      rgba(32, 35, 42, 0.7) 0%,
-      rgba(32, 35, 42, 0.4) 60%
-    ),
-    url("./assets/img/cogeek-home-header-background.jpg"); */
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
-  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .btn-more {
   font-size: 3rem;
@@ -76,7 +72,8 @@ html {
 
 .cgk-home-head-title {
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
+  font-weight: 600;
   text-transform: capitalize;
 }
 .cgk-about {
@@ -88,7 +85,10 @@ html {
   position: relative;
 }
 .about-us p {
-  font-size: 1.1rem;
+  font-size: 1rem;
+  color: #4f4f4f;
+}
+.about-us .content {
 }
 .arrow-object {
   position: absolute;
@@ -109,6 +109,10 @@ html {
   background-attachment: fixed;
   padding-top: 200px; */
   background-color: #f8f9fa;
+}
+
+.cgk-color {
+  color: #06c4f9 !important;
 }
 
 .btn-cgk {
@@ -181,7 +185,12 @@ html {
   margin: 20px auto;
   width: 300px;
   background-color: #fff;
+  /* box-shadow: 0 10px 15px -10px #252525; */
+  transition: 0.5s;
+}
+.team_card:hover {
   box-shadow: 0 10px 15px -10px #252525;
+  /* transform: translateY(-10px); */
 }
 .member_image {
   width: 100%;
@@ -199,8 +208,13 @@ html {
   text-transform: uppercase;
   text-align: center;
   color: #586074;
+  font-size: 0.8rem;
+}
 
-  font-size: 0.9rem;
+.member_inf .member_name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0;
 }
 
 .member_inf .member_contact {
@@ -243,4 +257,13 @@ hr.break-small {
   #navi-top {
     background-color: rgba(32, 35, 42, 1);
   }
+}
+
+#tsparticles {
+  /* background-image: linear-gradient(91.07deg, #009cf8 0%, #06c4f9 100%); */
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
 }

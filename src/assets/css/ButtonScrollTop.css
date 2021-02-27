@@ -20,3 +20,10 @@
 .btn-scrollTop:focus {
   outline-style: none !important;
 }
+
+@media (max-width: 768px) {
+  .btn-scrollTop {
+    bottom: 60px;
+    left: 20px;
+  }
+}

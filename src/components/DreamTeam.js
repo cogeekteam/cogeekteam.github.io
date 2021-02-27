@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import avtNghia from "../assets/img/nghia-nguyen-huu.jpg";
 // import avtMinh from "../assets/img/minh-vuong.png";
 import avtHoaiY from "../assets/img/hoai-y-pham.jpg";
 import avtNam from "../assets/img/nam-nguyen-huu.jpg";
+import $ from "jquery";
+import Particles from "react-particles-js";
 let memberList = [
   {
     name: "Nghia Nguyen",
@@ -27,7 +29,12 @@ function DreamTeam(props) {
             <hr className="break-small"></hr>
             <div className="row justify-content-center mt-5">
               {memberList.map((item, index) => (
-                <TeamCard key={index} name={item.name} avatar={item.avatar} />
+                <TeamCard
+                  key={index}
+                  index={index}
+                  name={item.name}
+                  avatar={item.avatar}
+                />
               ))}
             </div>
             {/* <div className="text-center mt-4">
@@ -41,9 +48,34 @@ function DreamTeam(props) {
     </div>
   );
 }
-const TeamCard = ({ name, avatar, role, faceBook, linkedIn }) => {
+const TeamCard = ({ name, avatar, role, faceBook, linkedIn, index }) => {
+  const [cardRef, setCardRef] = useState(null);
+  const [inPort, setInPort] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", scrollOnDreamTeam, false);
+    return () => {
+      window.removeEventListener("scroll", scrollOnDreamTeam, false);
+    };
+  }, []);
+
+  const scrollOnDreamTeam = () => {
+    if (isCardInViewPort()) {
+      setInPort(true);
+    } else {
+      setInPort(false);
+    }
+  };
+
+  function isCardInViewPort() {
+    if (!cardRef) return false;
+    const top = cardRef.getBoundingClientRect().top;
+    return top >= 0 && top <= window.innerHeight / 2;
+  }
   return (
-    <div className="team_card">
+    <div
+      ref={(ref) => setCardRef(ref)}
+      className={`team_card ${inPort ? "team_card-shadow" : ""}`}
+    >
       <div className="member_image">
         <img width="100%" src={avatar}></img>
       </div>

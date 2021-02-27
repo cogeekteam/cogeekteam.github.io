@@ -185,11 +185,13 @@ html {
   margin: 20px auto;
   width: 300px;
   background-color: #fff;
-  /* box-shadow: 0 10px 15px -10px #252525; */
-  transition: 0.5s;
+  transition: 0.6s;
+}
+.team_card-shadow {
+  box-shadow: 0 10px 15px -10px #252525;
 }
 .team_card:hover {
-  box-shadow: 0 10px 15px -10px #252525;
+  /* box-shadow: 0 10px 15px -10px #252525; */
   /* transform: translateY(-10px); */
 }
 .member_image {

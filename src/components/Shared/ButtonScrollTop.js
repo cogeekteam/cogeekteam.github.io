@@ -29,7 +29,7 @@ class ButtonScrollTop extends React.Component {
   render() {
     return (
       <button onClick={this.clickScrollTop} className="btn-scrollTop">
-        <i className="fad fa-angle-up"></i>
+        <i className="far fa-angle-up"></i>
       </button>
     );
   }

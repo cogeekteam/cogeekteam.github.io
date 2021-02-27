@@ -38,7 +38,7 @@ html {
   }
 }
 #navi-top {
-  background-color: rgba(32, 35, 42, 0.9);
+  background-color: rgba(32, 35, 42, 0);
   transition: 0.5s;
 }
 .bg-cogeek {
@@ -255,7 +255,7 @@ hr.break-small {
 }
 @media (max-width: 768px) {
   #navi-top {
-    background-color: rgba(32, 35, 42, 1);
+    /* background-color: rgba(32, 35, 42, 1); */
   }
 }
 

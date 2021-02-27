@@ -18,7 +18,9 @@ function About(props) {
           <div className="row justify-content-center align-items-center content">
             <div className="col-md-6 text-md-left text-center">
               <img className="mb-3" width="40" src={quote} />
-              <p>We are a small team with a big passion.</p>
+              <p>
+                We are a small team with a big passion for mobile development.
+              </p>
               <p></p>
               <p>
                 Instead of inventing an app, we learn, try and see how hard

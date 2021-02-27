@@ -1,6 +1,9 @@
 .btn-scrollTop {
   position: fixed;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.4rem;
   color: #fff;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 14px 0px;

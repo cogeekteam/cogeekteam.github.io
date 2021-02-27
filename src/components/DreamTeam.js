@@ -56,17 +56,18 @@ const TeamCard = ({ name, avatar, role, faceBook, linkedIn, index }) => {
     return () => {
       window.removeEventListener("scroll", scrollOnDreamTeam, false);
     };
-  }, []);
+  });
 
   const scrollOnDreamTeam = () => {
-    if (isCardInViewPort()) {
+    var currentScrollPos = window.pageYOffset;
+    if (isCardInViewPort(currentScrollPos)) {
       setInPort(true);
     } else {
       setInPort(false);
     }
   };
 
-  function isCardInViewPort() {
+  function isCardInViewPort(offset = 0) {
     if (!cardRef) return false;
     const top = cardRef.getBoundingClientRect().top;
     return top >= 0 && top <= window.innerHeight / 2;

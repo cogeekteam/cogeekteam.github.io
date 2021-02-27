@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.85ba7e49.chunk.css",
+    "main.css": "/static/css/main.9c5f91b0.chunk.css",
     "main.js": "/static/js/main.8f3919c2.chunk.js",
     "main.js.map": "/static/js/main.8f3919c2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f138281b.js",
@@ -12,7 +12,7 @@
     "static/js/3.b9ea4d73.chunk.js.map": "/static/js/3.b9ea4d73.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.85ba7e49.chunk.css.map": "/static/css/main.85ba7e49.chunk.css.map",
+    "static/css/main.9c5f91b0.chunk.css.map": "/static/css/main.9c5f91b0.chunk.css.map",
     "static/js/2.bd7cba50.chunk.js.LICENSE.txt": "/static/js/2.bd7cba50.chunk.js.LICENSE.txt",
     "static/media/cogeek-home-header-background.bc098eaa.jpg": "/static/media/cogeek-home-header-background.bc098eaa.jpg",
     "static/media/cogeek-team.a8246880.svg": "/static/media/cogeek-team.a8246880.svg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.f138281b.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.bd7cba50.chunk.js",
-    "static/css/main.85ba7e49.chunk.css",
+    "static/css/main.9c5f91b0.chunk.css",
     "static/js/main.8f3919c2.chunk.js"
   ]
 }

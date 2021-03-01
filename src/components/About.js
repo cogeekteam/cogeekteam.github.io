@@ -17,7 +17,7 @@ function About(props) {
           <hr className="break-small"></hr>
           <div className="row justify-content-center align-items-center content">
             <div className="col-md-6 text-md-left text-center">
-              <img className="mb-3" width="40" src={quote} />
+              <img alt="quote-cogeek" className="mb-3" width="40" src={quote} />
               <p>
                 We are a small team with a big passion for mobile development.
               </p>
@@ -32,7 +32,7 @@ function About(props) {
               </p>
             </div>
             <div className="col-md-6 col-12 text-center">
-              <img width="100%" src={cogeekTeam}></img>
+              <img alt="cogeek dev team" width="100%" src={cogeekTeam}></img>
             </div>
           </div>
         </div>

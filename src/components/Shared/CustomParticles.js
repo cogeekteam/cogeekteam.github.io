@@ -91,14 +91,14 @@ function CustomParticles(props) {
               factor: 1000,
             },
             limit: 0,
-            value: 30,
+            value: 40,
           },
           opacity: {
             random: {
               enable: true,
               minimumValue: 0.1,
             },
-            value: 0.5,
+            value: 0.6,
             animation: {
               destroy: "none",
               enable: false,

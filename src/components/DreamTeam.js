@@ -3,9 +3,7 @@ import avtNghia from "../assets/img/nghia-nguyen-huu.jpg";
 // import avtMinh from "../assets/img/minh-vuong.png";
 import avtHoaiY from "../assets/img/hoai-y-pham.jpg";
 import avtNam from "../assets/img/nam-nguyen-huu.jpg";
-import $ from "jquery";
-import Particles from "react-particles-js";
-let memberList = [
+let arrMember = [
   {
     name: "Nghia Nguyen",
     avatar: avtNghia,
@@ -28,7 +26,7 @@ function DreamTeam(props) {
             <h1 className="text-center font-weight-light">Our Team</h1>
             <hr className="break-small"></hr>
             <div className="row justify-content-center mt-5">
-              {memberList.map((item, index) => (
+              {arrMember.map((item, index) => (
                 <TeamCard
                   key={index}
                   index={index}
@@ -52,7 +50,9 @@ const TeamCard = ({ name, avatar, role, faceBook, linkedIn, index }) => {
   const [cardRef, setCardRef] = useState(null);
   const [inPort, setInPort] = useState(false);
   useEffect(() => {
-    window.addEventListener("scroll", scrollOnDreamTeam, false);
+    if (cardRef) {
+      window.addEventListener("scroll", scrollOnDreamTeam, false);
+    }
     return () => {
       window.removeEventListener("scroll", scrollOnDreamTeam, false);
     };
